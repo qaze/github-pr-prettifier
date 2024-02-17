@@ -1,0 +1,21 @@
+{
+  "name": "Github PR Prettifier",
+  "description": "Github PR Minimal Prettifier",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "matches": [
+        "https://github.com/*/*/pulls"
+      ]
+    }
+  ]
+}

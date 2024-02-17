@@ -1,0 +1,46 @@
+.circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.blue-border {
+    border-color: #0366d6; /* GitHub-like blue color */
+}
+
+.red-border {
+    border-color: #ff0000; /* Red color */
+}
+
+.green-border {
+    border-color: #008000; /* Green color */
+}
+
+.capsule {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 25px;
+  font-size: x-small;
+  background-color: transparent;
+  border: 2px solid;
+  text-align: center;
+  font-weight: bold; /* Make the text bold */
+  white-space: nowrap;
+}
+
+.blue-text {
+    color: #0366d6; /* GitHub-like blue color */
+    border-color: #0366d6;
+}
+
+.red-text {
+    color: #ff0000; /* Red color */
+    border-color: #ff0000;
+}
+
+.green-text {
+    color: #008000; /* Green color */
+    border-color: #008000;
+}
